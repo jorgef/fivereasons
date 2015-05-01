@@ -1,0 +1,16 @@
+﻿[
+    {
+        "Customer": {
+            "FirstName": "John",
+            "LastName": "Doe"
+        },
+        "AccountNumber": 1
+    },
+    {
+        "Customer": {
+            "FirstName": "Tom",
+            "LastName":  "Doe"
+        },
+        "AccountNumber": 2
+    }
+]
