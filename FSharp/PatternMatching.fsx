@@ -26,6 +26,19 @@ let processResult'' result =
     | Success (q, r) -> printfn "Success: %i %i" q r
     | Error m -> printfn "Error: %s" m 
 
+let (|Half|_|) result = 
+    match result with
+    | Success(2,0) -> Some result
+    | _ -> None
+
+let processResult''' result =
+    match result with
+    | Half r -> printfn "Success - Exact half"
+    | Success (q, 0) -> printfn "Success - No remainder: %i" q
+    | Success (q, r) -> printfn "Success: %i %i" q r
+    | Error m -> printfn "Error: %s" m 
+
+
 let evalOption result =
     match result with
     | Some(i) -> printfn "%i" i

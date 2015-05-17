@@ -95,6 +95,14 @@ namespace CSharp
             Console.WriteLine("Dispose executed");
         }
     }
+
+    public class AnonymousTypes
+    {
+        public object Get()
+        {
+            return new { Name = "Product1" };
+        }
+    }
 }
 
 

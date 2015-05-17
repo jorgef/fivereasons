@@ -59,6 +59,17 @@ let myDisposable = { new System.IDisposable with
 
 myDisposable.Dispose()
 
+type IProduct = 
+    abstract member Name: string
+    abstract member Print: string -> unit
+
+let myProduct = { new IProduct with 
+                  member this.Name = "Product1"
+                  member this.Print prefix = printfn "%s%s" prefix this.Name }
+
+myProduct.Name
+myProduct.Print ()
+
 
 // Inline functions
 

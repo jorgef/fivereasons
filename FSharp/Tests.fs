@@ -1,8 +1,7 @@
-﻿namespace FSharp
+﻿module FSharp.Tests
 
 open Xunit
 
-type Tests() =
-
-    [<Fact>]
-    member this.``Should process orders when they are approved`` () = ()
+[<Fact>]
+let ``Should process orders when are approved`` () = 
+    ()
