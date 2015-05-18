@@ -68,7 +68,7 @@ let myProduct = { new IProduct with
                   member this.Print prefix = printfn "%s%s" prefix this.Name }
 
 myProduct.Name
-myProduct.Print ()
+myProduct.Print "pro-"
 
 
 // Inline functions
@@ -82,7 +82,8 @@ type Product = { Name: string; Stock: int }
 let product = { Name = "Toyota"; Stock = 12 }
 
 let inline displayName (obj: 'a) =
-    let name = (^a: (member get_Name: unit -> string) obj)
+    let name = (^a: (member get_Name: 
+                            unit -> string) obj)
     printfn "Name: %s" name
 
 displayName product

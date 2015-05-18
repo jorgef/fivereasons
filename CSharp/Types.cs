@@ -96,11 +96,21 @@ namespace CSharp
         }
     }
 
+    public interface IProduct
+    {
+        string Name { get; }
+    }
+
     public class AnonymousTypes
     {
-        public object Get()
+        public object GetProduct()
         {
             return new { Name = "Product1" };
+        }
+
+        public void PrintName(IProduct product)
+        {
+            Console.WriteLine("Name: {0}", product.Name);
         }
     }
 }
