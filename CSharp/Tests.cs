@@ -5,7 +5,7 @@ namespace CSharp
     public class Tests
     {
         [Fact]
-        public void Should_process_orders_when_are_approved()
+        public void Should_process_orders_when_they_are_approved()
         {
             
         }

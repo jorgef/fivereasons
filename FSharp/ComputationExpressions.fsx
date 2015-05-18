@@ -35,8 +35,8 @@ type LogBuilder() =
     member this.Bind (value, continuation) =
         printfn "Value: %b" value
         continuation value
-    member this.Zero value =
-        printfn "Value: %b" value
+    member this.Return value = 
+        printfn "Result: %b" value
         value
 
 let log = LogBuilder()
@@ -45,4 +45,4 @@ let isEven number = number % 2 = 0
 
 log { let! x = isEven 1
       let! y = isEven 2
-      x && y }
+      return x && y }
