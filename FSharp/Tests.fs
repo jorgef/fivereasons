@@ -3,5 +3,4 @@
 open Xunit
 
 [<Fact>]
-let ``Should process orders when they are approved`` () = 
-    ()
+let ``Should process orders when they are approved`` () = ()

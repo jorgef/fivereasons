@@ -1,6 +1,6 @@
 ﻿namespace CSharp
 {
-    public class MyObject
+    public class Functions
     {
         public int Add(int a, int b)
         {
@@ -8,5 +8,3 @@
         }
     }
 }
-
-//Func<int, int, int>
