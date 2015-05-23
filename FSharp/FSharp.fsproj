@@ -64,10 +64,9 @@
     <Error Condition="!Exists('..\packages\xunit.core.2.0.0\build\portable-net45+win+wpa81+wp80+monotouch+monoandroid+Xamarin.iOS\xunit.core.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\xunit.core.2.0.0\build\portable-net45+win+wpa81+wp80+monotouch+monoandroid+Xamarin.iOS\xunit.core.props'))" />
   </Target>
   <ItemGroup>
+    <None Include="2.GreatTypes.fsx" />
     <Compile Include="Functions.fsx" />
-    <Compile Include="Tutorial.fsx" />
     <None Include="Sample.json" />
-    <None Include="Types.fsx" />
     <Content Include="packages.config" />
     <Compile Include="Tests.fs" />
     <Content Include="App.config" />
