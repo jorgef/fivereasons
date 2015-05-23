@@ -55,8 +55,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ComputationExpressions.cs" />
-    <Compile Include="Functions.cs" />
-    <Compile Include="PatternMatching.cs" />
+    <Compile Include="1.PowerfulFunctions.cs" />
+    <Compile Include="3.PatternMatching.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tests.cs" />

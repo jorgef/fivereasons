@@ -20,3 +20,6 @@ let result'' = 2 |> addOne  // result'' = 3
 let addTwo = add 2
 let addThree = addOne >> addTwo
 let result''' = addThree 1 // result''' = 4
+
+
+// Unit tests: check out file Tests.fs
