@@ -2,9 +2,9 @@
 {
     public class Functions
     {
-        public int Add(int a, int b)
+        public int Add(int x, int y)
         {
-            return a + b;
+            return x + y;
         }
     }
 

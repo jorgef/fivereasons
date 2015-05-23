@@ -1,6 +1,6 @@
 ﻿// Functions
 
-let add a b = a + b
+let add x y = x + y
 let result = add 1 2 // result = 3
 
 
