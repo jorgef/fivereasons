@@ -59,7 +59,7 @@
     <Compile Include="3.PatternMatching.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Tests.cs" />
+    <Compile Include="1a.Tests.cs" />
     <Compile Include="TypeProviders.cs" />
     <Compile Include="2.GreatTypes.cs" />
   </ItemGroup>

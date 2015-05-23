@@ -65,13 +65,12 @@
   </Target>
   <ItemGroup>
     <Compile Include="1.PowerfulFunctions.fsx" />
+    <Compile Include="1a.Tests.fs" />
     <None Include="2.GreatTypes.fsx" />
     <None Include="3.PatternMatching.fsx" />
     <None Include="Sample.json" />
     <Content Include="packages.config" />
-    <Compile Include="Tests.fs" />
     <Content Include="App.config" />
-    <None Include="Nulls.fsx" />
     <None Include="TypeProviders.fsx" />
     <None Include="Data.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
