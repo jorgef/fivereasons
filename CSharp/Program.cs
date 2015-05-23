@@ -6,7 +6,6 @@ namespace CSharp
     {
         public static void Main(string[] args)
         {
-            new ComputationExpressions().Run();
             Console.ReadLine();
         }
     }
