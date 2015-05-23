@@ -68,18 +68,13 @@
     <Compile Include="1a.Tests.fs" />
     <None Include="2.GreatTypes.fsx" />
     <None Include="3.PatternMatching.fsx" />
-    <None Include="Sample.json" />
-    <Content Include="packages.config" />
+    <None Include="4.TypeProviders.fsx" />
+    <None Include="5.ComputationExpressions.fsx" />
     <Content Include="App.config" />
-    <None Include="TypeProviders.fsx" />
+    <Content Include="packages.config" />
     <None Include="Data.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Data.json" />
-    <None Include="SqlServerTypes\x86\SqlServerSpatial110.dll" />
-    <None Include="SqlServerTypes\x64\SqlServerSpatial110.dll" />
-    <None Include="ComputationExpressions.fsx" />
-    <None Include="Demo.fsx" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FSharp.Azure.StorageTypeProvider">
